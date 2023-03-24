@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ema_security?useSSL=false&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: 123123
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+  # 使用redis
+  redis:
+    host: 121.4.253.229
+    port: 6379
+    password: KingRoot2023
+    database: 0
+
+# mybatis
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
